@@ -1,2 +1,2 @@
 # angularproj
-angularJS example project
+angular Example
