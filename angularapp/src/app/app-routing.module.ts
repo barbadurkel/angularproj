@@ -7,12 +7,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes);
-  ],
-  exports: [
-    RouterModule
-  ]
+      // initialization of the router and making it listen for browser location changes (routes)
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { 
  
